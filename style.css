@@ -1,0 +1,20 @@
+body{
+    background-image: linear-gradient(to right top, #059379, #35a79a, #5bbbb9, #81cfd5, #a8e2ee);background-image: linear-gradient(to bottom, #059379, #007a82, #005e81, #004273, #122456);}
+.container {
+    width: 100%; /* Ширина контейнера на весь экран */
+    height: 100vh; /* Высота контейнера на весь экран видимости (viewport height) */
+    display: flex; /* Устанавливаем flex-контейнер */
+    flex-direction: column; /* Столбцовая ориентация для дочерних элементов */
+    justify-content: center; /* Выравнивание по вертикали (по центру) */
+    align-items: center; /* Выравнивание по горизонтали (по центру) */
+    text-align: center; /* Выравнивание текста по центру внутри контейнера */
+} 
+button{
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    border: 3px dotted rgb(6, 178, 155);
+}
+h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
